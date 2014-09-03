@@ -29,7 +29,7 @@ p.tweetout {
 .clientfield {
 	border: 3px solid grey;
 	border-radius: 10px;
-	width: 32em;
+	width: 32%;
 	padding-left:2em;
 	font-size:15pt;
 	padding: 15px;
@@ -39,7 +39,7 @@ p.tweetout {
 .outputfield {
 	border: 3px solid grey;
 	border-radius: 10px;
-	width: 28em;
+	width: 30%;
 	margin-top: 20px;
 	padding-left: 2em;
 	font-size:15pt;
@@ -49,8 +49,9 @@ p.tweetout {
 	top:10%;
 }
 
- [data-tweet] {
-	font-family: palatino;
+.tweet {
+	font-family: sans-serif;
+	font-size: 13pt;
 }
 
 #dropdown {
