@@ -54,7 +54,7 @@ confirmButton.addEventListener("click", function(event) {
 function transferer() {
 	var i, infield, span;
 	for (i = 1; i <= 10; i++) {
-		infield = document.querySelector(".inputArea [data-tweet='" + i + "']");
+		infield = document.querySelector(".inputarea [data-tweet='" + i + "']");
 		span = document.querySelector("p.tweetout [data-tweet='" + i + "']");
 		span.textContent = infield.value;
 	}
@@ -63,7 +63,7 @@ function transferer() {
 function clear() {
 	var i, infield, span;
 	for (i = 1; i <= 10; i++) {
-		infield = document.querySelector(".inputArea [data-tweet='" + i + "']");
+		infield = document.querySelector(".inputarea [data-tweet='" + i + "']");
 		span = document.querySelector("p.tweetout [data-tweet='" + i + "']");
 		infield.value = null;
 		span.textContent = "";

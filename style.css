@@ -1,4 +1,73 @@
+#main {
+	vertical-align: center;
+}
+
 .tweet {
+	margin-left: 20px;
+	margin-top: 10px;
+	width: 80%;
+	height: 4em;
+	font-size:16pt;
+	padding: 8px;
+}
+
+.counter {
+	font-family: sans-serif;
+	font-size: 18pt;
+	margin-left: 1em;
+}
+
+body {
+	background-color: lightblue;
+}
+
+p.tweetout {
+	max-width: 90%
+
+}
+
+.clientfield {
+	border: 3px solid grey;
+	border-radius: 10px;
+	width: 32em;
+	padding-left:2em;
+	font-size:15pt;
+	padding: 15px;
+	margin-left:8%;
+}
+
+.outputfield {
+	border: 3px solid grey;
+	border-radius: 10px;
+	width: 28em;
+	margin-top: 20px;
+	padding-left: 2em;
+	font-size:15pt;
+	background-color: lightgrey;
+	position:absolute;
+	left:44%;
+	top:10%;
+}
+
+ [data-tweet] {
+	font-family: palatino;
+}
+
+#dropdown {
 	position: static;
-	left: 20px;
+	margin-left: 40%;
+	border: 2px solid grey;
+	border-radius: 10px;
+	font-size: 16pt;
+}
+
+.controls {
+	margin: 20px 0px;
+	position: absolute;
+	top: 5%;
+	left: 44%;
+}
+
+.controls button {
+	padding: 8px;
 }
