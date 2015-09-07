@@ -14,7 +14,7 @@ body {
   background-color: #BBB;
   border-radius: 5px;
   border: 12px outset #555;
-  height: 700px;
+  min-height: 700px;
 }
 
 .prompt {
