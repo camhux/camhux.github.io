@@ -1,0 +1,40 @@
+body {
+  background-color: #A8A58F;
+  position: relative;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.container {
+  color: #333;
+  text-align: center;
+  text-shadow: -1px -1px 0 #999;
+  width: 540px;
+  margin: auto;
+  padding: 15px;
+  background-color: #BBB;
+  border-radius: 5px;
+  border: 12px outset #555;
+  height: 700px;
+}
+
+.prompt {
+  font-size: 280%;
+}
+
+.text-entry {
+  font-size: 120%;
+  outline: none;
+  resize: none;
+  overflow: auto;
+  padding: 10px 5px;
+}
+
+.submit-text {
+  display: block;
+  margin: auto;
+}
+
+.displayed-text {
+  font-size: 200%;
+  word-wrap: break-word;
+}
