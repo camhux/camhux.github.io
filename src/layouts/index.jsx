@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Link from 'gatsby-link';
+import GLink from 'gatsby-link';
 import Helmet from 'react-helmet';
 
 import './index.css';
@@ -20,7 +20,7 @@ const Header = () => (
       }}
     >
       <h1 style={{ margin: 0 }}>
-        <Link
+        <GLink
           to="/"
           style={{
             color: 'white',
@@ -28,7 +28,7 @@ const Header = () => (
           }}
         >
           Gatsby
-        </Link>
+        </GLink>
       </h1>
     </div>
   </div>
