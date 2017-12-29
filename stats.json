@@ -1,0 +1,68 @@
+{
+  "assetsByChunkName": {
+    "path---cv": [
+      "path---cv-a0e39f21c11f6a62c5ab.js",
+      "path---cv-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---": [
+      "path----557518bd178906f8d58a.js",
+      "path----557518bd178906f8d58a.js.map"
+    ],
+    "component---src-layouts-index-jsx": [
+      "component---src-layouts-index-jsx-0d19e0f0351cc9d8ec86.js",
+      "component---src-layouts-index-jsx-0d19e0f0351cc9d8ec86.js.map"
+    ],
+    "path---index": [
+      "path---index-711a85ca6f37ea301947.js",
+      "path---index-711a85ca6f37ea301947.js.map"
+    ],
+    "component---src-pages-about-jsx": [
+      "component---src-pages-about-jsx-c1ec64ae568b1cd132b2.js",
+      "component---src-pages-about-jsx-c1ec64ae568b1cd132b2.js.map"
+    ],
+    "commons": [
+      "commons-a46579367cfd573efb6a.js",
+      "build-js-styles.css",
+      "commons-a46579367cfd573efb6a.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---404-html": [
+      "path---404-html-a0e39f21c11f6a62c5ab.js",
+      "path---404-html-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-404-jsx": [
+      "component---src-pages-404-jsx-4503918ea3a16cfcdb75.js",
+      "component---src-pages-404-jsx-4503918ea3a16cfcdb75.js.map"
+    ],
+    "path---demystifying-git-remotes": [
+      "path---demystifying-git-remotes-452baee482fae2710d4f.js",
+      "path---demystifying-git-remotes-452baee482fae2710d4f.js.map"
+    ],
+    "component---src-templates-blog-post-jsx": [
+      "component---src-templates-blog-post-jsx-6a1152f817fcfadf76de.js",
+      "component---src-templates-blog-post-jsx-6a1152f817fcfadf76de.js.map"
+    ],
+    "component---src-pages-index-jsx": [
+      "component---src-pages-index-jsx-27fa210a535ea4398819.js",
+      "component---src-pages-index-jsx-27fa210a535ea4398819.js.map"
+    ],
+    "app": [
+      "app-098561636ea2421756df.js",
+      "build-js-styles.css",
+      "app-098561636ea2421756df.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---404": [
+      "path---404-a0e39f21c11f6a62c5ab.js",
+      "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-cv-jsx": [
+      "component---src-pages-cv-jsx-99d3d8e357f01279e6cd.js",
+      "component---src-pages-cv-jsx-99d3d8e357f01279e6cd.js.map"
+    ],
+    "path---about": [
+      "path---about-a0e39f21c11f6a62c5ab.js",
+      "path---about-a0e39f21c11f6a62c5ab.js.map"
+    ]
+  }
+}
