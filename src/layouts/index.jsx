@@ -55,7 +55,7 @@ const TemplateWrapper = ({ children, location }) => (
       ]}
     />
     <Header location={location} />
-    <div>
+    <div className={styles.pageContent}>
       {children()}
     </div>
   </div>

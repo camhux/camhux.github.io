@@ -25,6 +25,8 @@
 
 .pageTitleHighlight {
     color: #666666;
+    position: relative;
+    top: 10%;
 }
 
 .headerLink {
@@ -45,4 +47,9 @@
     border-bottom-width: 8px;
     border-bottom-style: solid;
     border-color: black;
+}
+
+.pageContent {
+    margin: 0 auto;
+    max-width: 960px;
 }
