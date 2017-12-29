@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Vollkorn');
+
+.header {
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 1.45rem 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.pageTitleWrapper {
+    margin-right: auto;
+}
+
+.pageTitleLink {
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-style: italic;
+    font-family: 'Vollkorn', serif;
+    letter-spacing: 10px;
+    line-height: 1;
+}
+
+.pageTitleHighlight {
+    color: #666666;
+}
+
+.headerLink {
+    margin: 0 1rem;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    align-self: start;
+    text-transform: capitalize;
+    font-style: normal;
+    font-family: 'Vollkorn', serif;
+    a {
+        text-decoration: none;
+        color: black;
+    }
+}
+
+.headerLink.active a {
+    border-bottom-width: 8px;
+    border-bottom-style: solid;
+    border-color: black;
+}

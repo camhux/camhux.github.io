@@ -4,54 +4,58 @@ import GLink from 'gatsby-link';
 import Helmet from 'react-helmet';
 
 import './index.css';
+import styles from './index.module.scss';
 
-const Header = () => (
-  <div
-    style={{
-      background: 'rebeccapurple',
-      marginBottom: '1.45rem',
-    }}
-  >
+const HeaderItem = (props) => {
+  const isActive = new RegExp(`^${props.slug}(\b|$)`).test(props.pathname);
+
+  return (
+    <div className={`${styles.headerLink} ${isActive ? styles.active : ''}`} >
+      <GLink to={`${props.slug}`}>
+        {props.children}
+      </GLink>
+    </div>
+  );
+};
+
+HeaderItem.propTypes = {
+  slug: PropTypes.string.isRequired,
+  pathname: PropTypes.string.isRequired,
+};
+
+const Header = ({ location }) => {
+  const { pathname } = location;
+
+  return (
     <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '1.45rem 1.0875rem',
-      }}
+      className={styles.header}
     >
-      <h1 style={{ margin: 0 }}>
+      <h1 className={styles.pageTitleWrapper}>
         <GLink
           to="/"
-          style={{
-            color: 'white',
-            textDecoration: 'none',
-          }}
+          className={styles.pageTitleLink}
         >
-          Gatsby
+          C<span className={styles.pageTitleHighlight}>a</span>ameron
         </GLink>
       </h1>
+      <HeaderItem slug="/" pathname={pathname}>Blog</HeaderItem>
+      <HeaderItem slug="/about" pathname={pathname}>About</HeaderItem>
+      <HeaderItem slug="/cv" pathname={pathname}>CV</HeaderItem>
     </div>
-  </div>
-);
+  );
+};
 
-const TemplateWrapper = ({ children }) => (
+const TemplateWrapper = ({ children, location }) => (
   <div>
     <Helmet
-      title="Gatsby Default Starter"
+      title="caameron"
       meta={[
         { name: 'description', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' },
       ]}
     />
-    <Header />
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '0px 1.0875rem 1.45rem',
-        paddingTop: 0,
-      }}
-    >
+    <Header location={location} />
+    <div>
       {children()}
     </div>
   </div>
@@ -59,6 +63,10 @@ const TemplateWrapper = ({ children }) => (
 
 TemplateWrapper.propTypes = {
   children: PropTypes.func,
+};
+
+TemplateWrapper.defaultProps = {
+  children: () => {},
 };
 
 export default TemplateWrapper;
